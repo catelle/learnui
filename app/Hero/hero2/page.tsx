@@ -6,16 +6,16 @@ export default function Hero() {
     <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-black text-white">
       {/* Left: Background Image */}
       <div className="relative w-full md:w-1/2 h-64 md:h-screen">
-        
-        {/* Optional overlay */}
-        <div className="absolute inset-0 bg-black/70" />
-        <Image
+         <Image
           src="/imfadi.jpg"
           alt="Background"
           className="object-cover"
           priority
           fill
         />
+        {/* Optional overlay */}
+        <div className="absolute inset-0 bg-black/70" />
+       
       </div>
 
       {/* Right: Content */}
